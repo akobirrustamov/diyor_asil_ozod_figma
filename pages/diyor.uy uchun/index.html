@@ -1,11 +1,267 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
+
 <body>
-    
+    <div class="max-w-2xs mx-auto md:max-w-2xl lg:max-w-7xl ">
+        <div class="flex justify-between items-center py-4">
+            <div class="lg:block md:hidden hidden">
+                <div class="">
+
+                    <img src="./img/log.png" alt="">
+
+
+                </div>
+            </div>
+            <div class="lg:flex gap-8 lg:block md:hidden hidden">
+                <h1 class="hover:text-blue-600 cursor-pointer ">Для бизнеса</h1>
+                <h1 class="text-blue-600 cursor-pointer ">Для дома</h1>
+                <h1 class="hover:text-blue-600 cursor-pointer ">Камеры</h1>
+                <h1 class="hover:text-blue-600 cursor-pointer ">Тарифы</h1>
+                <h1 class="hover:text-blue-600 cursor-pointer ">Партнёрам</h1>
+                <h1 class="hover:text-blue-600 cursor-pointer ">Поддержка</h1>
+            </div>
+            <div class="flex gap-50 lg:block md:hidden hidden">
+                <button class="px-8 py-2 hover:rounded-xl hover:bg-blue-600 hover:text-white border-1">Стать
+                    партнёром</button>
+                <button class="px-4 py-2 hover:rounded-xl hover:bg-blue-600 hover:text-white border-1">Войти</button>
+            </div>
+            <div class="lg:hidden md:hidden block">
+                <div class="flex gap-30 ">
+                    <div>
+                        <h1 class="font-semibold">13:13</h1>
+                    </div>
+                    <div class="flex gap-2">
+                        <img src="./img/antena.png" alt="">
+                        <img src="./img/Wifi.png" alt="">
+                        <img src="./img/Battery.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-image: url(/pages/img/image8.png);" class="max-w-7xl m-auto text-[#fff] p-8 rounded-4xl">
+        <div>
+            <h1 class="text-6xl">
+                Ваш дом
+            </h1>
+            <h2 class="text-5xl font-semibold mt-2">
+                в безопасности
+            </h2>
+            <p class="text-xl mt-6 mb-5">
+                Простая установка и все под вашим контролем!
+            </p>
+            <div class="">
+                <button class=" font-semibold p-3 bg-[#FC0C35] px-6 rounded-xl">Смотреть демо-камеры</button>
+            </div>
+        </div>
+        <div class="flex gap-5 mt-30">
+            <div class="bg-[#0076FE] p-3 px-5 rounded-3xl w-full">
+                <div>
+                    <p>
+                        Для установки понадобится лишь
+                    </p>
+                    <p class="font-semibold">
+                        розетка и Wi-Fi
+                    </p>
+                </div>
+                <div class="text-2xl mt-10 flex justify-end">
+                    01
+                </div>
+            </div>
+            <div class="bg-[#0076FE] p-3 px-5 rounded-3xl w-full">
+                <div>
+                    <p>
+                        Для подключения достаточно
+                    </p>
+                    <p class="font-semibold">
+                        скачать приложение на смартфон и навести камеру на QR-код
+                    </p>
+                </div>
+                <div class="text-2xl mt-5 flex justify-end">
+                    02
+                </div>
+            </div>
+            <div class="bg-[#0076FE] p-3 px-5 rounded-3xl w-full">
+                <div>
+                    <p class="font-semibold">
+                        В комплекте с камерой <span class="font-normal"> - магнитное основане и крепежный набор</span>
+                    </p>
+                </div>
+                <div class="text-2xl mt-10 flex justify-end">
+                    03
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="text-[#fff] max-w-7xl m-auto flex gap-10 mt-20">
+        <div>
+            <div class="w-1 h-35 bg-[#0076FE] rounded-3xl"></div>
+            <div class="w-[2px] h-73 bg-[#9C9C9C] rounded-3xl ml-[1px]"></div>
+        </div>
+        <div class="w-[50%]">
+            <div class="bg-[#0076FE] p-3 rounded-2xl p-5">
+                <div class="flex items-center">
+                    <div>
+                        <p class="text-xl">
+                            Дом
+                        </p>
+                    </div>
+                    <div class="flex justify-end">
+                        <p>
+                            -
+                        </p>
+                    </div>
+                </div>
+                <p class="mt-5">
+                    Будьте спокойны, оставляя ваш дом под взором OPC Eco. В случае появления движения и звука там, где
+                    его быть не должно, Faceter сразу сообщит вам об этом и запишет все происходящее.
+                </p>
+            </div>
+            <div class="flex items-center bg-[#0076FE] mt-5 mb-5 p-5 rounded-2xl ">
+                <div>
+                    <p class="text-xl">
+                        Дети
+                    </p>
+                </div>
+                <div class="flex justify-end">
+                    <p>
+                        +
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center bg-[#0076FE] p-5 rounded-2xl ">
+                <div>
+                    <p class="text-xl">
+                        Питомцы
+                    </p>
+                </div>
+                <div class="flex justify-end">
+                    <p>
+                        +
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center bg-[#0076FE] mt-5 p-5 rounded-2xl ">
+                <div>
+                    <p class="text-xl">
+                        Домработники
+                    </p>
+                </div>
+                <div class="flex justify-end">
+                    <p>
+                        +
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="/pages/img/image9.png" alt="">
+            <div class="mt-22 flex justify-end">
+                <button class="p-4 bg-[#FC0C35] px-20 rounded-2xl text-xl">Подключить</button>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-7xl m-auto">
+        <h1 class="text-5xl text-center mt-20 mb-10 text-[#0076FE]">
+            Приватность, безопасность и контроль
+        </h1>
+        <div class="flex gap-10 items-center">
+            <div>
+                <img src="/pages/img/image10.png" alt="">
+            </div>
+            <div class="w-[50%]">
+                <div class="flex gap-5">
+                    <div>
+                        <img class="w-20" src="/pages/img/image11.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-[#0076FE] text-xl font-semibold">
+                            Безопасность
+                        </h1>
+                        <p class="mt-2 ">
+                            Хранение данных в облаке не позволит скачать видеозапись, даже если злоумышленник получит
+                            доступ к камере. Ivideon использует надежное TLS-шифрование и доступ к аккаунту защищен с
+                            помощью двухфакторной аутентификацией.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-3 mt-10 mb-10">
+                    <div>
+                        <img lass="w-15" src="/pages/img/image12.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-[#0076FE] text-xl font-semibold">
+                            Приватность
+                        </h1>
+                        <p class="mt-2 ">
+                            Вы можете в любое время отключить запись архива в облако.
+                            Или настроить запись видео только по расписанию.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex gap-6">
+                    <div>
+                        <img lass="w-15" src="/pages/img/image13.png" alt="">
+                    </div>
+                    <div>
+                        <h1 class="text-[#0076FE] text-xl font-semibold">
+                            Контроль
+                        </h1>
+                        <p class="mt-2 ">
+                            Вы будете получать уведомления в Telegram о том, что происходит в доме во время вашего
+                            отсутствия
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="max-w-7xl m-auto">
+        <h1 class="text-[#0076FE] text-4xl text-center mt-20 mb-5">
+            <span class="text-[#000000]"> Камеры Faceter</span> впишутся в любой интерьер
+        </h1>
+        <div class="flex gap-5">
+            <div>
+                <img src="/pages/img/image14.png" alt="">
+            </div>
+            <div class="border-1 rounded-2xl ">
+                <p class="text-center mb-1 font-semibold">
+                    Справится даже ребёнок!
+                </p>
+                <div class=" bg-[#0076FE80] w-[430px] p-15 rounded-[50%]">
+                    <div class=" bg-[#0076FE] w-[315px] p-10 rounded-[50%]">
+                        <img src="/pages/img/image15.png" alt="">
+                    </div>
+                </div>
+                <div class="flex justify-between mt-[-60px] px-2">
+                    <div>
+                        <p class="bg-[#FC0C35] text-[#fff] inline-block rounded-2xl px-4">
+                            Облачная камера
+                        </p>
+                        <h1 class="text-3xl mt-10 mb-2 font-semibold">
+                            OPC Eco
+                        </h1>
+                        <p class="text-xl text-[#0076FE]">
+                            Сделано в России
+                        </p>
+                    </div>
+                    <div>
+                        <button class="bg-[#0076FE] p-3 px-8 text-xl rounded-2xl mt-18 text-[#fff]">Купить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
