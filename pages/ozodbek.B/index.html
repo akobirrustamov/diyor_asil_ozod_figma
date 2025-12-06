@@ -3,9 +3,227 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
-    
+    <!-- nav start -->
+    <nav class="max-x-2xs mx-auto md:max-w-2xl lg:max-w-7xl flex items-center px-10 md:px-0 justify-between mt-5">
+        <div>
+            <img src="/pages/img/navbar.svg" alt="">
+        </div>
+        <div class="lg:flex gap-8 hidden lg:block">
+            <p class="hover:text-[#0076FE] hover:font-semibold">Для бизнеса</p>
+            <p class="hover:text-[#0076FE] hover:font-semibold">Для дома</p>
+            <p class="hover:text-[#0076FE] hover:font-semibold">Камеры</p>
+            <p class="hover:text-[#0076FE] hover:font-semibold">Тарифы</p>
+            <p class="hover:text-[#0076FE] hover:font-semibold">Партнёрам</p>
+            <p class="hover:text-[#0076FE] hover:font-semibold">Поддержка</p>
+        </div>
+        <div class="lg:flex gap-4 hidden lg:block">
+            <button class="border-2 border-[#FC0C35] font-semibold p-2 text-black hover:text-white rounded-xl hover:bg-[#FC0C35]">Начать бесплатно</button>
+            <button class="border-2 border-[#0076FE] rounded-xl p-2 font-semibold text-[#0076FE] hover:bg-[#0076FE] hover:text-white">Войти</button>
+        </div>
+        <div class="lg:hidden">
+            <i class="fa-solid fa-bars-staggered fa-lg" style="color: #000000;"></i>
+        </div>
+    </nav>
+    <!-- nav end -->
+
+    <style>
+        .banner .img_1{
+            margin-left: -130px;
+        }
+    </style>
+    <!-- banner start -->
+     <div class="max-x-2xs mx-auto md:max-w-2xl lg:max-w-7xl bg-[#0076FE] rounded-2xl p-6 text-white mt-10 lg:flex justify-between">
+        <div>
+            <h1 class="text-6xl font-medium">Контроль и безопасность <br><b>вашего бизнеса</b></h1>
+            <p class="text-xl font-normal my-5">За 5 минут получи доступ к демо-камера <br>и протестируй приложение</p>
+            <button class="text-end font-semibold text-lg bg-[#002033] p-2 rounded-xl hover:bg-black flex gap-2"><img src="/pages/img/camera.png" alt=""> Смотреть демо-камеры</button>
+            <div class="md:flex text-center gap-10 mt-16 mb-10 hidden md:block">
+                <div>
+                    <h1 class="font-medium text-4xl">24/7</h1>
+                    <p>работает <br>без перебоев</p>
+                </div>
+                <div>
+                    <h1 class="font-medium text-4xl">> 1 000 000</h1>
+                    <p>скачиваний в сторах</p>
+                    <div class="flex gap-1">
+                    <div class="bg-[#04C979] rounded-xl p-2">
+                        <i class="fa-solid fa-star" style="color: white;"></i>
+                    </div>
+                    <div class="bg-[#04C979] rounded-xl p-2">
+                        <i class="fa-solid fa-star" style="color: white;"></i>
+                    </div>
+                    <div class="bg-[#04C979] rounded-xl p-2">
+                        <i class="fa-solid fa-star" style="color: white;"></i>
+                    </div>
+                    <div class="bg-[#04C979] rounded-xl p-2">
+                        <i class="fa-solid fa-star" style="color: white;"></i>
+                    </div>
+                    <div class="bg-[#04C979] rounded-xl p-2">
+                        <i class="fa-solid fa-star-half" style="color: white;"></i>
+                    </div>
+                </div>
+                </div>
+                <div class="flex flex-col gap-2 font-semibold text-lg">
+                    <button class="hover:border hover:border-[#FFFFFF] rounded-xl p-2"><i class="fa-brands fa-apple fa-2xl" style="color: white;"></i>App Store</button>
+                    <button class="hover:border hover:border-[#FFFFFF] rounded-xl p-2 "><i class="fa-brands fa-google-play fa-xl" style="color: white;"></i>Google Play</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="banner text-center border border-white rounded-2xl">
+            <img class="img_1" src="/pages/img/camera_big.svg" alt="">
+            <button class="hidden md:block hover:text-black text-[#0076FE] font-semibold bg-white rounded-xl p-2 text-base my-4"><i class="fa-solid fa-calculator fa-lg"></i>Онлайн-калькулятор</button>
+            <img class="pl-10 mb-4" src="/pages/img/logo.svg" alt="">
+            <p>Российская компания <br>собственное производство</p>
+            
+        </div>
+     </div>
+    <!-- banner end -->
+
+     <!-- cards start -->
+     <div class="max-w-2xs mx-auto md:max-w-2xl lg:max-w-7xl flex gap-2 mt-10 flex justify-between">
+        <h1 class="font-semibold text-xl md:text-4xl ">Какие <b class="text-[#FC0C35]">боли</b> мы помогаем решить?</h1>
+        <div class="flex gap-2 items-center hidden lg:block">
+            <i class="bg-[#E0E0E0] rounded-full p-5 pr-8 hover:bg-[#0076FE] fa-solid fa-arrow-left fa-xl" style="color: white;"></i>
+            <i class="bg-[#E0E0E0] rounded-full p-5 pr-8 hover:bg-[#0076FE] fa-solid fa-arrow-right fa-xl" style="color: white;"></i>
+        </div>
+     </div>
+     <div class="max-w-2xs mx-auto md:max-w-2xl lg:max-w-7xl flex gap-2 mt-10">
+        <div class="blue border-2 border-[#FC0C35] group hover:border-[#0076FE] rounded-4xl mx-10 md:mx-0">
+            <div class="flex gap-2 p-4">
+                <img src="/pages/img/card_logo_1.svg" alt="">
+                <h1 class="text-[#FC0C35] font-semibold text-base group-hover:text-[#0076FE]">Воровство, <br>недостача</h1>
+            </div>
+            <p class="pl-6 pb-4">Мы должны доносить <br>
+                до клиентов, что само <br>
+                наличие камер на объекте <br>
+                снижает риск воровства. <br>
+                Также мы храним архив...
+            </p>
+            <div>
+                <img src="/pages/img/card_1.svg" alt="">
+                <div class="bg-[#FC0C35] group-hover:bg-[#0076FE] p-6 rounded-b-3xl"> <hr class="border border-white"> </div>
+            </div>
+        </div>
+        <div class="blue border-2 border-[#FC0C35] group hover:border-[#0076FE] rounded-4xl hidden md:block">
+            <div class="flex gap-2 p-4">
+                <img src="/pages/img/card_lodo_2.svg" alt="">
+                <h1 class="text-[#FC0C35] font-semibold text-base group-hover:text-[#0076FE]">Воровство, <br>недостача</h1>
+            </div>
+            <p class="pl-6 pb-4">Мы должны доносить <br>
+                до клиентов, что само <br>
+                наличие камер на объекте <br>
+                снижает риск воровства. <br>
+                Также мы храним архив...
+            </p>
+            <div>
+                <img src="/pages/img/card_2.svg" alt="">
+                <div class="bg-[#FC0C35] group-hover:bg-[#0076FE] p-6 rounded-b-3xl"> <hr class="border border-white"> </div>
+            </div>
+        </div>
+        <div class="blue border-2 border-[#FC0C35] group hover:border-[#0076FE] rounded-4xl hidden lg:block">
+            <div class="flex gap-2 p-4">
+                <img src="/pages/img/card_logo_3.svg" alt="">
+                <h1 class="text-[#FC0C35] font-semibold text-base group-hover:text-[#0076FE]">Воровство, <br>недостача</h1>
+            </div>
+            <p class="pl-6 pb-4">Мы должны доносить <br>
+                до клиентов, что само <br>
+                наличие камер на объекте <br>
+                снижает риск воровства. <br>
+                Также мы храним архив...
+            </p>
+            <div>
+                <img src="/pages/img/card_3.svg" alt="">
+                <div class="bg-[#FC0C35] group-hover:bg-[#0076FE] p-6 rounded-b-3xl"> <hr class="border border-white"> </div>
+            </div>
+        </div>
+        <div class="blue border-2 border-[#FC0C35] group hover:border-[#0076FE] rounded-4xl hidden lg:block">
+            <div class="flex gap-2 p-4">
+                <img src="/pages/img/card_logo_4.svg" alt="">
+                <h1 class="text-[#FC0C35] font-semibold text-base group-hover:text-[#0076FE]">Воровство, <br>недостача</h1>
+            </div>
+            <p class="pl-6 pb-4">Мы должны доносить <br>
+                до клиентов, что само <br>
+                наличие камер на объекте <br>
+                снижает риск воровства. <br>
+                Также мы храним архив...
+            </p>
+            <div>
+                <img src="/pages/img/card_4.svg" alt="">
+                <div class="bg-[#FC0C35] group-hover:bg-[#0076FE] p-6 rounded-b-3xl"> <hr class="border border-white"> </div>
+            </div>
+        </div>
+     </div>
+    <!-- cards end -->
+
+    <!-- sidebar start -->
+     <div class="max-w-2xs mx-auto md:max-w-2xl lg:max-w-7xl mt-10">
+        <h1 class="font-semibold text-4xl md:text-6xl text-center">Пресса о нас</h1>
+        <div class="text-center">
+        <p class="text-center my-6">Объединяйте и группируйте камеры по адресам, объектам и как вам удобно. Количество <br>
+            камер на аккаунте не ограничено. Как вам удобно. Количество камер на аккаунте не <br>
+            ограничено. Объединяйте и группируйте камеры по адресам, объектам и как вам удобно. <br>
+            Количество камер на аккаунте не ограничено.
+        </p>
+        <a href="" class="font-semibold hover:text-[#0076FE] text-center border-b-2 hover:border-[#0076FE]">Forbes home</a> 
+        </div>
+        <div class="flex gap-2 md:justify-between items-center mt-4">
+            <div class="border-2 border-[#0000001A] rounded-2xl py-2 px-4 hover:border-[#0076FE]">
+                <img src="/pages/img/sidebar_1.svg" alt="">
+            </div>
+            <div class="border-2 border-[#0000001A] rounded-2xl py-2 px-4 hover:border-[#0076FE]">
+                <img src="/pages/img/sidebar_2.svg" alt="">
+            </div>
+            <div class="border-2 border-[#0000001A] rounded-2xl py-2 px-4 hover:border-[#0076FE] ">
+                <img src="/pages/img/sidebar_1.svg" alt="">
+            </div>
+            <div class="border-2 border-[#0000001A] rounded-2xl py-2 px-4 hover:border-[#0076FE] hidden md:block">
+                <img src="/pages/img/sidebar_4.svg" alt="">
+            </div>
+            <div class="border-2 border-[#0000001A] rounded-2xl py-2 px-4 hover:border-[#0076FE] hidden md:block">
+                <img src="/pages/img/sidebar_2.svg" alt="">
+            </div>
+            <div class="border-2 border-[#0000001A] rounded-2xl py-2 px-4 hover:border-[#0076FE] hidden lg:block">
+                <img src="/pages/img/sidebar_6.svg" alt="">
+            </div>
+            <div class="border-2 border-[#0000001A] rounded-2xl py-2 px-4 hover:border-[#0076FE] hidden lg:block">
+                <img src="/pages/img/sidebar_4.svg" alt="">
+            </div>
+            <div class="border-2 border-[#0000001A] rounded-2xl py-2 px-4 hover:border-[#0076FE] hidden lg:block">
+                <img src="/pages/img/sidebar_2.svg" alt="">
+            </div>
+            <div class="border-2 border-[#0000001A] rounded-2xl py-2 px-4 hover:border-[#0076FE] hidden lg:block">
+                <img src="/pages/img/sidebar_4.svg" alt="">
+            </div>
+        </div>
+     </div>
+    <!-- sidebar end -->
+      
+    <!-- section start -->
+     <div class="max-w-2xs mx-auto md:max-w-2xl lg:max-w-5xl mt-10">
+        <h1>Эффективное и удобное использование</h1>
+        <div class="text-center flex justify-between">
+            <div>
+            <div class="border-12 border-[#0076FE] rounded-full px-30 py-20">
+                <img src="/pages/img/section_logo.svg" alt="">
+                <h1 class="text-[#0076FE] font-semibold text-4xl my-6">Удобный архив</h1>
+                <p class="text-xl my-4">Аналитика прямо в таймлайне</p>
+                <p class="text-xl mb-4">Загрузка < 1 секунды</p>
+                <p class="text-xl mb-4">Видны отметки движения</p>
+                <p class="text-xl mb-4">Мгновенная загрузка</p>
+                <p class="text-xl">Быстрая навигация</p>
+            </div>
+            </div>
+            <div>
+                <img src="/pages/img/phone.svg" alt="">
+            </div>
+        </div>
+     </div>
+    <!-- section end -->
 </body>
 </html>
